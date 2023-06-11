@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+  box-sizing: border-box;
+}
+nav{
+  height: 70px;
+ 
+}
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.logo{
+  height: 60px;
+ 
+}
+.nav_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;}
+
+.body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.about-section{
+  background: url(./../images/about.jpg) no-repeat left;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 0px 0;
+}
+
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text{
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}
+footer{
+    
+  font-family: 'Poppins',sans-serif;
+  padding: 60px 10%;
+  display: flex;
+  background-color: rgb(224, 224, 247);
+  background-color: rgba(139, 164, 121, 0.283);
+}
+footer div{
+  text-align: center;
+}
+
+.col_2{
+flex:1;
+}
+footer div h3{
+  font-weight: 300px ;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+footer a{
+  text-align: left;
+  margin-left: 1cm;
+}
+.col_1 a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+.col_2 p{
+color :black;
+}
+.col_3 p{
+color: black;
+}
+.col_1 a:hover {
+  opacity: .6;
+  transition: 0.5s;
+}
