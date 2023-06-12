@@ -1,0 +1,4 @@
+if you want this to work:
+you need to create two databases
+1-create database users_db and put whats inside the file in mysql(check db_conn.php==connexion to users)
+2-create the database travel and put whats inside travel file in mysql (check db_cnx_travel==connection to travel)
